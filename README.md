@@ -37,6 +37,7 @@ HEAT_SOAK TARGET=[first_layer_bed_temperature]
 ```
 
 If you see any `M140` or `M190` commands, these can be safely commented out by placing a `;` in front of those lines.
+
 For example:
 
 ```
