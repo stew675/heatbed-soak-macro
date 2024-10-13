@@ -48,3 +48,7 @@ For example:
 ```
 ;M190 S[first_layer_bed_temperature]
 ```
+
+This following image may help to clarify where to edit the printer's start g-code in your slicer software
+
+![Printer Start Gcode](https://github.com/stew675/heatbed-soak-macro/blob/main/Heat-Soak.jpg)
