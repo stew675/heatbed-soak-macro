@@ -13,7 +13,7 @@ In general, use of this macro will result in vastly improved first layer quality
 
 ## How to install
 
-To use this macro, import the `Heatbed_Soak.cfg` from this repository into your printer's configuration directory
+To use this macro, import the [Heatbed_Soak.cfg](https://github.com/stew675/heatbed-soak-macro/blob/main/Heatbed_Soak.cfg) file from this repository into your printer's configuration directory
 
 Now edit your `printer.cfg` and include the path to the `Heatbed_Soak.cfg` macro file
 
