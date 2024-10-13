@@ -30,10 +30,15 @@ The above assumes that the `Heatbed_Soak.cfg` file was placed in the same direct
 Inside your slicer there will be a printer configuration panel which defines the Gcode that the printer will
 run when starting a print.
 
-You will want add the following file, preferably just before the first line that has a `G28` command on it:
+You will want add the following `HEAT_SOAK` line, preferably just before the first line that has a `G28` command on it.
+
+For example:
 
 ```
+...
 HEAT_SOAK TARGET=[first_layer_bed_temperature]
+G28
+...
 ```
 
 If you see any `M140` or `M190` commands, these can be safely commented out by placing a `;` in front of those lines.
